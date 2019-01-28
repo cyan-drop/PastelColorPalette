@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		FD46F40021FB26A9001C301E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F3FF21FB26A9001C301E /* AppDelegate.swift */; };
-		FD46F40221FB26A9001C301E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F40121FB26A9001C301E /* ViewController.swift */; };
 		FD46F40521FB26A9001C301E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46F40321FB26A9001C301E /* Main.storyboard */; };
 		FD46F40721FB26AA001C301E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD46F40621FB26AA001C301E /* Assets.xcassets */; };
 		FD46F40A21FB26AA001C301E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD46F40821FB26AA001C301E /* LaunchScreen.storyboard */; };
+		FD46F41221FB2A00001C301E /* PastelColorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41121FB2A00001C301E /* PastelColorCell.swift */; };
+		FD46F41421FB2C00001C301E /* ColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41321FB2C00001C301E /* ColorPaletteViewController.swift */; };
+		FD46F41621FB2CA3001C301E /* PastelColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41521FB2CA3001C301E /* PastelColorPaletteView.swift */; };
+		FD46F41821FB3F40001C301E /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41721FB3F40001C301E /* UIColorHex.swift */; };
+		FD46F41C21FE8405001C301E /* ColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41B21FE8405001C301E /* ColorPaletteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD46F3FC21FB26A9001C301E /* DemoPalette.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoPalette.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD46F3FF21FB26A9001C301E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD46F40121FB26A9001C301E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD46F40421FB26A9001C301E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD46F40621FB26AA001C301E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD46F40921FB26AA001C301E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD46F40B21FB26AA001C301E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD46F41121FB2A00001C301E /* PastelColorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelColorCell.swift; sourceTree = "<group>"; };
+		FD46F41321FB2C00001C301E /* ColorPaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteViewController.swift; sourceTree = "<group>"; };
+		FD46F41521FB2CA3001C301E /* PastelColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelColorPaletteView.swift; sourceTree = "<group>"; };
+		FD46F41721FB3F40001C301E /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		FD46F41B21FE8405001C301E /* ColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPaletteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				FD46F3FF21FB26A9001C301E /* AppDelegate.swift */,
-				FD46F40121FB26A9001C301E /* ViewController.swift */,
 				FD46F40321FB26A9001C301E /* Main.storyboard */,
+				FD46F41321FB2C00001C301E /* ColorPaletteViewController.swift */,
+				FD46F41521FB2CA3001C301E /* PastelColorPaletteView.swift */,
+				FD46F41B21FE8405001C301E /* ColorPaletteView.swift */,
+				FD46F41721FB3F40001C301E /* UIColorHex.swift */,
+				FD46F41121FB2A00001C301E /* PastelColorCell.swift */,
 				FD46F40621FB26AA001C301E /* Assets.xcassets */,
 				FD46F40821FB26AA001C301E /* LaunchScreen.storyboard */,
 				FD46F40B21FB26AA001C301E /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD46F40221FB26A9001C301E /* ViewController.swift in Sources */,
+				FD46F41421FB2C00001C301E /* ColorPaletteViewController.swift in Sources */,
+				FD46F41621FB2CA3001C301E /* PastelColorPaletteView.swift in Sources */,
+				FD46F41821FB3F40001C301E /* UIColorHex.swift in Sources */,
 				FD46F40021FB26A9001C301E /* AppDelegate.swift in Sources */,
+				FD46F41C21FE8405001C301E /* ColorPaletteView.swift in Sources */,
+				FD46F41221FB2A00001C301E /* PastelColorCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
