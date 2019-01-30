@@ -2,7 +2,7 @@
 //  PastelColorPalette.h
 //  PastelColorPalette
 //
-//  Created by 泉 on 2019/01/25.
+//  Created by cyan-drop on 2019/01/25.
 //  Copyright © 2019 cyan. All rights reserved.
 //
 

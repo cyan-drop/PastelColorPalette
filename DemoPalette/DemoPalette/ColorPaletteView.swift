@@ -2,7 +2,7 @@
 //  ColorPaletteView.swift
 //  DemoPalette
 //
-//  Created by 泉 on 2019/01/28.
+//  Created by cyan-drop on 2019/01/28.
 //  Copyright © 2019 cyan. All rights reserved.
 //
 

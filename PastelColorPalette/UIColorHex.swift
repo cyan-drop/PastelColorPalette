@@ -1,11 +1,12 @@
 //
 //  UIColorHex.swift
-//  DemoPalette
+//  PastelColorPalette
 //
-//  Created by cyan-drop on 2019/01/25.
+//  Created by cyan-drop on 2019/01/29.
 //  Copyright © 2019 cyan. All rights reserved.
 //
 
+import Foundation
 import UIKit
 
 extension UIColor {
@@ -21,3 +22,4 @@ extension UIColor {
         self.init(hex: hex, alpha: 1.0)
     }
 }
+
