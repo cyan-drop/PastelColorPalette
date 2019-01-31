@@ -11,6 +11,7 @@
 		FD46F41E21FEEEFB001C301E /* PastelColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41D21FEEEFB001C301E /* PastelColorPaletteViewController.swift */; };
 		FD46F42021FEF077001C301E /* PastelColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41F21FEF077001C301E /* PastelColorPaletteView.swift */; };
 		FD46F424220039AF001C301E /* UIColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F423220039AF001C301E /* UIColorHex.swift */; };
+		FD87C69122033D5600FA112A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD87C69022033D5600FA112A /* UIKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FD46F41D21FEEEFB001C301E /* PastelColorPaletteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelColorPaletteViewController.swift; sourceTree = "<group>"; };
 		FD46F41F21FEF077001C301E /* PastelColorPaletteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastelColorPaletteView.swift; sourceTree = "<group>"; };
 		FD46F423220039AF001C301E /* UIColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorHex.swift; sourceTree = "<group>"; };
+		FD87C69022033D5600FA112A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD87C69122033D5600FA112A /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +41,7 @@
 			children = (
 				FD46F3EA21FB2597001C301E /* PastelColorPalette */,
 				FD46F3E921FB2597001C301E /* Products */,
+				FD87C68F22033D5600FA112A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +63,14 @@
 				FD46F3EC21FB2597001C301E /* Info.plist */,
 			);
 			path = PastelColorPalette;
+			sourceTree = "<group>";
+		};
+		FD87C68F22033D5600FA112A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD87C69022033D5600FA112A /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +218,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -264,6 +277,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				NEW_SETTING = "";
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;

@@ -14,6 +14,8 @@ FOUNDATION_EXPORT double PastelColorPaletteVersionNumber;
 //! Project version string for PastelColorPalette.
 FOUNDATION_EXPORT const unsigned char PastelColorPaletteVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <PastelColorPalette/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like
+
+#import <PastelColorPalette/PastelColorPalette.h>
 
 
