@@ -17,7 +17,8 @@ This library is created with the assumption of using a storyboard.
     ```Swift
     //example
     let pastelColorPaletteVC = PastelColorPaletteViewController()
-    pastelColorPaletteVC.delegate = self```
+    pastelColorPaletteVC.delegate = self
+    ```
 
 3. You can also set the processing you want to execute when receiving notifications.
     
@@ -26,7 +27,8 @@ This library is created with the assumption of using a storyboard.
     func paletteViewController(color: UIColor){
         self.backgroundColor = color
         print(color.debagScription)
-    }```
+    }
+    ```
 
 ## Install
 
