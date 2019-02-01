@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2956A9B68C6014CE5196D060 /* Pods_PastelColorPalette.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6EA1211F7156CFD3C6572E /* Pods_PastelColorPalette.framework */; };
 		FD46F3ED21FB2597001C301E /* PastelColorPalette.h in Headers */ = {isa = PBXBuildFile; fileRef = FD46F3EB21FB2597001C301E /* PastelColorPalette.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD46F41E21FEEEFB001C301E /* PastelColorPaletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41D21FEEEFB001C301E /* PastelColorPaletteViewController.swift */; };
 		FD46F42021FEF077001C301E /* PastelColorPaletteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD46F41F21FEF077001C301E /* PastelColorPaletteView.swift */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6858A1EFAC6A2E42312406F3 /* Pods-PastelColorPalette.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelColorPalette.release.xcconfig"; path = "Pods/Target Support Files/Pods-PastelColorPalette/Pods-PastelColorPalette.release.xcconfig"; sourceTree = "<group>"; };
+		8D6EA1211F7156CFD3C6572E /* Pods_PastelColorPalette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PastelColorPalette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06282DF765149DE94B4B827 /* Pods-PastelColorPalette.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PastelColorPalette.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PastelColorPalette/Pods-PastelColorPalette.debug.xcconfig"; sourceTree = "<group>"; };
 		FD46F3E821FB2597001C301E /* PastelColorPalette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PastelColorPalette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD46F3EB21FB2597001C301E /* PastelColorPalette.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PastelColorPalette.h; sourceTree = "<group>"; };
 		FD46F3EC21FB2597001C301E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -30,18 +34,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD87C69122033D5600FA112A /* UIKit.framework in Frameworks */,
+				2956A9B68C6014CE5196D060 /* Pods_PastelColorPalette.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F8EF4C667938E6978942E17D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B06282DF765149DE94B4B827 /* Pods-PastelColorPalette.debug.xcconfig */,
+				6858A1EFAC6A2E42312406F3 /* Pods-PastelColorPalette.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FD46F3DE21FB2597001C301E = {
 			isa = PBXGroup;
 			children = (
 				FD46F3EA21FB2597001C301E /* PastelColorPalette */,
 				FD46F3E921FB2597001C301E /* Products */,
 				FD87C68F22033D5600FA112A /* Frameworks */,
+				F8EF4C667938E6978942E17D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -69,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				FD87C69022033D5600FA112A /* UIKit.framework */,
+				8D6EA1211F7156CFD3C6572E /* Pods_PastelColorPalette.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -91,6 +107,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD46F3F021FB2597001C301E /* Build configuration list for PBXNativeTarget "PastelColorPalette" */;
 			buildPhases = (
+				A0D932B4BE4514874ED0BCE9 /* [CP] Check Pods Manifest.lock */,
 				FD46F3E321FB2597001C301E /* Headers */,
 				FD46F3E421FB2597001C301E /* Sources */,
 				FD46F3E521FB2597001C301E /* Frameworks */,
@@ -148,6 +165,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A0D932B4BE4514874ED0BCE9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PastelColorPalette-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FD46F3E421FB2597001C301E /* Sources */ = {
@@ -290,6 +332,7 @@
 		};
 		FD46F3F121FB2597001C301E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B06282DF765149DE94B4B827 /* Pods-PastelColorPalette.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -300,6 +343,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PastelColorPalette/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,6 +361,7 @@
 		};
 		FD46F3F221FB2597001C301E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6858A1EFAC6A2E42312406F3 /* Pods-PastelColorPalette.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -327,6 +372,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = PastelColorPalette/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

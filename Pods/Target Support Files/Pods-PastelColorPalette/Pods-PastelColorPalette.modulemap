@@ -1,0 +1,6 @@
+framework module Pods_PastelColorPalette {
+  umbrella header "Pods-PastelColorPalette-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "PastelColorPalette"
-  s.version      = "0.0.1"
+  s.version      = "v1.0"
   s.summary      = "You can select colors from pastel color palettes."
 
   # This description is used to generate tags and improve search results.
